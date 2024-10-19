@@ -1,0 +1,161 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-div{
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    background-color: #fce4e9;
+}
+
+.nav-div p{
+    font-size: 20px;
+}
+
+.nav-div button{
+    margin: 12px 8px;
+    padding: 0px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(236, 62, 62);
+    color: white;
+}
+
+
+/*  Second div */
+
+.second_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.left-div{
+    margin-left: 20px;
+}
+.left-div img{
+    width: 80px;
+    height: 35px;
+    margin-top: 8px;
+}
+ 
+.mid-div{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 50rem;
+    justify-content: space-evenly;
+    font-size: 14px;
+
+}
+
+.mid-div li:nth-child(5){
+    color: red;
+}
+
+.right-div{
+    display: flex;
+    align-items: center;
+}
+
+.right-div p{
+    background-color:#e5ffff ;
+    padding: 10px 20px ;
+    border-radius: 8px;
+    font-size:12px;
+    font-weight: bold;
+    color:#16bef1 ;
+
+}
+.right-div button{
+    background-color: white;
+    color: rgb(241, 64, 64);
+    border: none;
+    border: 1px solid rgb(247, 105, 105);
+    margin-right: 20px;
+    margin-left: 10px;
+    padding: 10px 20px ;
+    border-radius: 8px;
+}
+
+/* mid-main-div */
+
+.mid-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35rem;
+}
+
+.mid-main-2nd_div{
+    
+    height: 50%;
+    width: 50%;
+    padding-left: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+    scale: 1.2;
+    
+
+}
+.mid-main-2nd_div h1{
+    margin: 0;
+    color: #6b72cd;
+    font-size: 60px;
+}
+.mid-main-2nd_div p{
+    margin: 5px 0;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mid-main-2nd_div button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(236, 62, 62);
+    color: white;
+    margin-top: 20px;
+
+}
+
+.mid-main-3rd_div video{
+    width: 50rem;
+    height: 25rem;
+    border: 1px solid rgb(231, 230, 230);
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+
+
+/* bottom-div */
+
+
+.bottom-div{
+    background-color:#52bfff ;
+    color: white;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.bottom-inner-div{
+    width: 40rem;
+    text-align: center;
+}
+
+.bottom-div h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 35px;
+}
